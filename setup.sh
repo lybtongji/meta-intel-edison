@@ -55,6 +55,7 @@ $extra_archiving
 $extra_conf
 $extra_nodejs_mraa_upm
 EOF
+  cat "$top_repo_dir/custom.conf" >> $yocto_conf_dir/local.conf
 }
 
 do_append_layer (){
